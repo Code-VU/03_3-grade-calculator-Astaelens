@@ -4,6 +4,18 @@ def calculateGrade():
     # This first line is provided for you
 
     hrs = float(input("Enter score:"))
+    if hrs<=1 & hrs>=.9:
+        print("A")
+    elif hrs >=.8:
+        print("B")
+    elif hrs>=.7:
+        print("C")
+    elif hrs>=.6:
+        print("D")
+    elif hrs>=0 & hrs<.6:
+        print("F")
+    else:
+        print("Bad score")
 
     # end assignment
 
